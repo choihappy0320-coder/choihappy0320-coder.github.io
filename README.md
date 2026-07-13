@@ -1,4 +1,304 @@
 # choihappy0320-coder.github.io
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behind the Veil | Experience Rawls' Theory of Justice</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+Behind the Veil
+</div>
+
+<ul>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#learn">Learn</a></li>
+
+<li><a href="#experience">Experience</a></li>
+
+</ul>
+
+</nav>
+
+
+
+<header class="hero">
+
+<div class="hero-content">
+
+<h1>Behind the Veil</h1>
+
+<h2>
+Experience Rawls' Theory of Justice
+</h2>
+
+<p>
+
+"What kind of society would you choose if you didn't know who you would become?"
+
+</p>
+
+<a href="#about" class="btn">
+Start Experience
+</a>
+
+</div>
+
+</header>
+
+
+
+
+<section id="about" class="glass">
+
+<h2>About</h2>
+
+<p>
+
+존 롤스(John Rawls)는 사람들이 자신이 어떤 사람으로 태어날지 모르는 상태,
+즉 <strong>무지의 베일(Veil of Ignorance)</strong> 아래에서 사회를 설계한다면
+가장 공정한 제도를 선택할 것이라고 주장했습니다.
+
+</p>
+
+<p>
+
+이 사이트에서는 당신이 직접 사회 제도를 설계한 뒤,
+무작위 사회적 위치를 부여받아
+그 선택이 누구에게 어떤 영향을 미치는지 체험할 수 있습니다.
+
+</p>
+
+</section>
+
+
+
+
+
+<section id="learn">
+
+<h2>Rawls' Key Concepts</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Veil of Ignorance</h3>
+
+<p>
+
+자신의 능력,
+부,
+국적,
+성별,
+사회적 지위를 모르는 상태에서
+사회를 설계하는 사고실험입니다.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Equal Liberty</h3>
+
+<p>
+
+모든 사람은
+동등한 자유를 누릴 권리가 있습니다.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Difference Principle</h3>
+
+<p>
+
+불평등은
+가장 불리한 사람에게도
+이익이 될 때만 정당화될 수 있습니다.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<section id="experience">
+
+<h2>Build Your Society</h2>
+
+<p>
+
+다음 질문에 답하며
+당신이 생각하는 가장 정의로운 사회를 설계해 보세요.
+
+</p>
+
+<button id="startQuiz" class="btn">
+
+Start
+
+</button>
+
+</section>
+
+
+
+
+
+
+<section id="quiz" class="hidden">
+
+<h2>Question</h2>
+
+<div id="questionBox">
+
+</div>
+
+<div id="answerBox">
+
+</div>
+
+<button id="nextBtn" class="btn">
+
+Next
+
+</button>
+
+</section>
+
+
+
+
+
+
+<section id="result" class="hidden">
+
+<h2>Your Result</h2>
+
+<h3 id="identity">
+
+</h3>
+
+<p id="analysis">
+
+</p>
+
+<div class="score">
+
+<span>
+
+Justice Score
+
+</span>
+
+<h1 id="score">
+
+0
+
+</h1>
+
+</div>
+
+<button id="restart" class="btn">
+
+Try Again
+
+</button>
+
+</section>
+
+
+
+
+
+
+<section id="reflection" class="hidden">
+
+<h2>Reflection</h2>
+
+<p>
+
+당신은 지금도 같은 사회를 선택하시겠습니까?
+
+</p>
+
+<textarea
+
+id="reflectionText"
+
+placeholder="이번 체험을 통해 느낀 점을 작성해 보세요."
+
+></textarea>
+
+<button id="saveBtn" class="btn">
+
+Save Reflection
+
+</button>
+
+</section>
+
+
+
+
+
+
+<footer>
+
+<p>
+
+Created by
+
+<strong>최준우</strong>
+
+</p>
+
+<p>
+
+Political Science &
+International Relations
+
+</p>
+
+<p>
+
+Inspired by John Rawls
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
 /* =========================
    Behind the Veil
    style.css
